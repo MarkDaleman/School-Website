@@ -1,72 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-	<!-- *zwaai* Hallo HTML Lezert -->
-	<head>
-		<!-- META -->
-		<meta charset="UTF-8">
-		<meta name="description" content="Arctic Monkeys Website">
-		<meta name="keywords" content="Arctic Monkeys, DVD, CD, LP, News">
-		<meta name="author" content="Mark Daleman">
-		<title>Arctic Monkeys</title>
-		<!-- CSS -->
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.css">
-        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-	</head>
+<!-- *zwaai* Hallo HTML Lezert -->
+
+<head>
+  <!-- META -->
+  <meta charset="UTF-8">
+  <meta name="description" content="Arctic Monkeys Website">
+  <meta name="keywords" content="Arctic Monkeys, DVD, CD, LP, News">
+  <meta name="author" content="Mark Daleman">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Arctic Monkeys</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+</head>
+
 <div id="container">
-    
-<!-- HEADER -->
-<p>Test Plaatje</p>
-<div class="navigatie">
+  <!-- HEADER -->
+  <img src="images/logo2.png" class="headerimage" alt="Arctic Monkeys Logo" />
+  <div id="navigatie">
+    <label for="show-menu" class="show-menu">Show Menu</label>
+    <input type="checkbox" value="1" id="show-menu" />
+    <ul id="menu">
+      <li><a href="index.html">Home</a>
+      </li>
+      <li>
+        <a href="about.html">About</a>
+      </li>
+      <li>
+        <a class="taphover" >CD / LP's</a>
+        <ul class="hidden">
+          <li><a href="cd.html">CD</a>
+          </li>
+          <li><a href="lp.html">LP</a>
+          </li>
+        </ul>
+      </li>
+      <li><a href="new.html">News</a>
+      </li>
+      <li><a href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </div>
+  <!-- Navigatie end -->
+  <!-- HEADER END -->
 
-	<label for="show-menu" class="show-menu">Show Menu</label>
-		<input type="checkbox" id="show-menu" role="button">
-		<ul id="menu">
-				<li><a href="index.html">Home</a></li>
-				<li>
-					<a href="about.html">About</a>
-				</li>
-				<li>
-					<a href="muziek.html">CD / LP's</a>
-					<ul class="hidden">
-						<li><a href="cd.html">CD</a></li>
-						<li><a href="lp.html">LP</a></li>
-					</ul>
-				</li>
-				<li><a href="new.html">News</a></li>
-				<li><a href="contact.html">Contact</a></li>
-		</ul>
-    </input>
-</div><!-- Navigatie end -->
-<!-- HEADER END -->
-
-<!-- CONTENT -->
-<body>
-<!--[if lt IE 7]>
+  <!-- CONTENT -->
+  <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-<![endif]--> 
-
-    <main>
-        <div class="content">
-            <div class="title">
-                This is the Main Heading
-            </div><!-- Title end -->
-            <p>Hier komt vette content te staan!</p>
-        </div><!-- Title end -->
-    </main>
-    <div class="footer">
-        <div class="footer-left">
-        <p class="footer_text"><i class="fa fa-phone"> 06-12341234</i><br />
-        <i class="fa fa-home"> Haarlemmerstraat 34, Leiden</i></footer_text><br />
-       <i class="fa fa-heart-o"> Made with love by, Mark Daleman</i></p>
+  <![endif]-->
+  <main>
+    <div class="content">
+      <div class="title">
+       Arctic Monkeys fanpage
+      </div>
+      <div class="content-pull-left">
+        <p>Welkom op de pagina van de Arctic Monkeys Welkom op de pagina van de Arctic Monkeys</p>
+        <p>Deze webpagina is een fansite van de bekende indie-rockband Arctic Monkeys</p>
+        <p></p>
+      </div>
+      <div class="content-pull-right">
+        <div class="event">
+          <p class="date">Date: 12-09-2015</p>
+          <p class="location">Locatie: Budapest</p>
+          <p>Event: Best of Rock festival</p>
         </div>
-        <div class="footer-right">
-        <p class="footer_text"><i class="fa fa-phone"> 06-12341234</i><br />
-        <i class="fa fa-home"> Haarlemmerstraat 34, Leiden</i></footer_text><br />
-       <i class="fa fa-heart-o"> Made with love by, Mark Daleman</i></p>
+        <div class="event">
+          <p class="date">Date: 31-12-2015</p>
+          <p class="location">Locatie: Helsinki</p>
+          <p>Event: New Years Party @ Club Fresh</p>
         </div>
-    </div><!-- Footer end -->
-</body>
-</div><!-- Container end -->
-<!-- END CONTENT -->
+        <div class="event">
+          <p class="date">Date: 07-05-2016</p>
+          <p class="location">Locatie: Amsterdam</p>
+          <p>Event: Indie in de Melkweg</p>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </main>
+  <div class="footer">
+  <script type="text/javascript" src="script.js"></script>
+    <div class="footer-left">
+      <p class="footer_text"><i class="fa fa-phone"> 06-12341234</i>
+        <br />
+        <i class="fa fa-home"> Haarlemmerstraat 34, Leiden</i>
+        <br />
+        <i class="fa fa-envelope-o"> e-mail: arcticmonkeys@info.nl</i>
+      </p>
+    </div>
+    <div class="footer-right">
+      <p class="footer_text">
+        <i class="fa fa-phone"> 06-12341234</i>
+        <br />
+        <i class="fa fa-home"> Haarlemmerstraat 34, Leiden</i>
+        <br />
+        <i class="fa fa-envelope-o"> e-mail: arcticmonkeys@info.nl</i>
+      </p>
+    </div>
+    <div class="clear"></div>
+    <div class="copyright">
+      <span>Copyright by Mark Daleman</span>
+    </div>
+  </div>
+</div>
 </html>
